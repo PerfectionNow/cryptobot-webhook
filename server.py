@@ -3,7 +3,7 @@ from flask import Flask, request, jsonify
 app = Flask(__name__)
 
 # Токен вашего бота (для проверки подлинности запросов)
-WEBHOOK_TOKEN = "ВАШ_СЕКРЕТНЫЙ_ТОКЕН"
+WEBHOOK_TOKEN = "372516:AAqHbAghMlsqNxwuxeesUwZzbfw0kM1ro1t"
 
 @app.route('/webhook', methods=['POST'])
 def handle_webhook():
